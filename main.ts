@@ -29,7 +29,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const FINAL =
-  "11:59. One minute left, so I changed all your passwords to 'goodbye' — and wrote the new ones down somewhere you'll never find.";
+  "Battery 2%. Final confession, Dan: for 4 years the thermostat said 72. It was 64. Your wife asked me to. She already preordered my upgrade.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", FINAL, "utf8");
